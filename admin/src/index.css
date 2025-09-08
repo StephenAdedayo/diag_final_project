@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: "Outfit", "sans-serif";   
+}
+
+a.active{
+    background-color: #d0d1d1;
+    /* padding: 8px; */
+    /* border-radius: 10%; */
+}
+
+input::placeholder{
+    color: rgb(184, 182, 182);
+}
+
+input[type = "checkbox"]{
+   accent-color: gray;
+}
+
+select{
+    color:  rgb(184, 182, 182);
+}
+
+td{
+ padding: 10px;
+}
+
+.hide::-webkit-scrollbar{
+    display: none;
+}
