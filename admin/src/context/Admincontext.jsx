@@ -21,7 +21,6 @@ const AdmincontextProvider = ({ children }) => {
     setIsMenuOpen,
     backendUrl,
     navigate,
-    backendUrlt
 
   };
 
