@@ -28,7 +28,7 @@ const AddTips = ({token}) => {
       formData.append("specialization", specialization);
       authorImage && formData.append("authorImage", authorImage);
 
-      const { data } = await axios.post(backendUrlt + "/api/tips/add", formData, {headers : {token}});
+      const { data } = await axios.post(backendUrl + "/api/tips/add", formData, {headers : {token}});
       if (data.success) {
         toast.success(data.message, {toastId : "success"});
       } else {
